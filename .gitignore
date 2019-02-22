@@ -1,2 +1,21 @@
-# Ignore all zip files, we don't wan't compressed fags here
+#######################
+# General
+#######################
 *.zip
+*.tar.gz
+*.rar
+
+#######################
+# Java stuff
+#######################
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
