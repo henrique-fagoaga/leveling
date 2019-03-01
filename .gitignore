@@ -9,6 +9,10 @@
 #######################
 # Java stuff
 #######################
+# Eclipse dotfiles
+.project
+.classpath
+
 # Compiled class file
 *.class
 
