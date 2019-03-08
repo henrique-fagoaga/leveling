@@ -4,15 +4,15 @@ public class TestProgrammingLanguage {
 
         System.out.println(python.getParadigm());
         System.out.println(python.getCreator());
-        System.out.println(python.getType());
+        System.out.println(python.getTypeCategory());
 
         python.setParadigm("superparadigm");
         python.setCreator("Yoda");
-        python.setType("mental type");
+        python.setTypeCategory("mental type");
 
         System.out.println(python.getParadigm());
         System.out.println(python.getCreator());
-        System.out.println(python.getType());
+        System.out.println(python.getTypeCategory());
 
         python.interpret();
         python.compile();
