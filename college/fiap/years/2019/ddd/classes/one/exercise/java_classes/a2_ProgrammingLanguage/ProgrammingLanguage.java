@@ -1,12 +1,12 @@
 public class ProgrammingLanguage {
     private String paradigm;
     private String creator;
-    private String type;
+    private String typeCategory;
 
-    public ProgrammingLanguage(String paradigm, String creator, String type) {
+    public ProgrammingLanguage(String paradigm, String creator, String typeCategory) {
         this.paradigm = paradigm;
         this.creator = creator;
-        this.type = type;
+        this.typeCategory = typeCategory;
     }
 
     public String getParadigm() {
@@ -25,12 +25,12 @@ public class ProgrammingLanguage {
         this.creator = creator;
     }
 
-    public String getType() {
-        return this.type;
+    public String getTypeCategory() {
+        return this.typeCategory;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setTypeCategory(String typeCategory) {
+        this.typeCategory = typeCategory;
     }
 
     public void interpret() {
