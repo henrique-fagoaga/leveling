@@ -1,0 +1,152 @@
+<html>
+    <head></head>
+    <body>
+	<form id="formulario" onsubmit="alert('Enviado')">
+	    <fieldset>
+		<legend>Data</legend>
+		<div>
+		    <label>Destino da Viagem:
+			<input type="text" name="destino" size="100"
+					    placeholder="Digite a cidade de destino do pacote de viagem." required/>
+		    </label>
+		</div>
+		<div>
+		    <label>Data de Ida:
+			<input type="date" name="ida" />
+		    </label>
+		</div>
+		<div>
+		    <label>Data de Volta:
+			<input type="date" name="volta" />
+		    </label>
+		</div>
+		<div>
+		    <label>Quantidade de Diárias:
+			<input type="number" name="diarias" min="1" max="15" step="1"/>
+		    </label>
+		</div>
+	    </fieldset>
+	    <fieldset>
+		<legend>Requisitos Mínimos e Valores: </legend>
+		<div>
+		    <label>Quantidade Mĩnimas de Pessoas:
+			<input type="number" name="min-pessoas" min="1" step="1"/>
+		    </label>
+		</div>
+		<div>
+		    <label>Valor do Pacote:
+			<input type="number" name="valor" min="1" step="0.01"/>
+		    </label>
+		</div>
+	    </fieldset>
+	    <fieldset>
+		<legend>Detalhes da Viagem:</legend>
+		<div>
+		    <label>Roteiro:
+			<textarea name="roteiro" placeholder="Digite o roteiro detalhado da viagem" cols="80" rows="36">
+			  \$                       
+			   $)                      
+			  ($`                      
+			   $_                      
+			,--" l_                    
+			;|    )l                   
+			:    _/                    
+			;   : l`.                  
+	       .sssss._ L_..; :  \.sSSSSSSs.       
+	    _.SS$$$$$SSSSSSS   ; `^T$$$$$$$SS.     
+	  .dSS$$$$$$$$$$$$$$   :   :$$$SS$$$$Sb    
+	 dSS$$P^^T$$$S$$$$$; _, ;  :$$$$$S$$$$Sb   
+	dS$S$P   :$$$S$$S$$-"   :   T$$$$$S$$S$S;  
+       dS$$$$   d$$$SS^S$$;     :    T$$$$$S$$SSS  
+      dSP^/ ; ;:T$SSP: :$$$     ;_.   T$$$$S$$$SS; 
+     dS'   : / :(S^" ; $$SS;   :/`.    T$$$$S$$$SS 
+    :S     ;    \;  / d$S$P:   ; / \    `T$$S$$$$S;
+    S$    : .-   ; : :SSSP  \_/.'   \     `^S$$$$SS
+    :Sb   ;/     : ; $$$P`-   /      j       `T$$S;
+     S$bp.:      ; ; $P'   \_g,     dT; ;      j$S 
+     :S$S$$j    /  : :    ,-dP-'"--:TT; :     d$S; 
+      TS$P' \_.'    \ \  _ s")    d$STT._;_.g$$$S$ 
+		     \   ;:      :$$$STT$S$$$$$$S$ 
+		      \  ;;     /$$$$S$T`TS$$$$$$; 
+		       ; ::\__.'/$$$$S^--.T$$$$$$  
+		       : ;  -.-'/___       T$$$S;  
+		       : :`-. )",--"      ,g$$SP   
+		       ; .;__T+'"""-._    $SSS'    
+		      :,'     ;       ""--'""      
+		      ;  _    :                    
+		     :  d"b   d;                   
+		     ; $   b d :                   
+		     : $ss^" `T;                   
+		      \       /                    
+		       `.___.'
+			</textarea>
+		    </label>
+		</div>
+		<div>
+		    Tem aereo?
+		    <label>
+			<input type="radio" name="aereo" value="s" />
+			Sim
+		    </label>
+		    <label>
+			<input type="radio" name="aereo" value="n" />
+			Não
+		    </label>
+		</div>
+		<div>
+		    Tem translado?
+		    <label>
+			<input type="radio" name="translado" value="s" />
+			Sim
+		    </label>
+		    <label>
+			<input type="radio" name="translado" value="n" />
+			Não
+		    </label>
+		</div>
+		<div>
+		    Tem hotel?
+		    <label>
+			<input type="radio" name="hotel" value="s" />
+			Sim
+		    </label>
+		    <label>
+			<input type="radio" name="hotel" value="n" />
+			Não
+		    </label>
+		</div>
+		<div>
+		    Refeições inclusas:
+		    <label>
+			<input type="checkbox" name="refeicoes" value="cm"/>
+			Café da Manhã
+		    </label>
+		    <label>
+			<input type="checkbox" name="refeicoes" value="a"/>
+			Almoço
+		    </label>
+		    <label>
+			<input type="checkbox" name="refeicoes" value="ct"/>
+		       Café da Tarde 
+		    </label>
+		    <label>
+			<input type="checkbox" name="refeicoes" value="j"/>
+			Jantar
+		    </label>
+		</div>
+		<div>
+		    <label> Tipo do Quarto:
+			<select name="quarto">
+			    <option value="s">Individual</option>
+			    <option value="d">Duplo</option>
+			    <option value="t">Triplo</option>
+			    <option value="q">Festa</option>
+			</select>
+		    </label>
+		</div>
+	    </fieldset>
+	    <!-- <input type="submit" value="Enviaaarrrr"/> -->
+	    <button>Enviarrrrr</button>
+	</form>
+    </body>
+</html>
