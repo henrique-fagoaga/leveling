@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Atividade14 {
     public static void main(String[] args) {
+        System.out.println("ALGORITMO MENOR");
         Scanner scan = new Scanner(System.in);
 
 		System.out.println("Insira primeiro numero:");
@@ -28,5 +29,6 @@ public class Atividade14 {
                     menor = valor4;
 
         System.out.println("Menor número: " + menor);
+        scan.close();
     }
 }

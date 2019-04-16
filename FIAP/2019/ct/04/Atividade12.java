@@ -23,5 +23,7 @@ public class Atividade12 {
         } else {
             System.out.println("Operador inválido");
         }
+
+        scan.close();
     }
 }

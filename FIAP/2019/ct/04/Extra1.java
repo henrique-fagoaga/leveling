@@ -72,5 +72,7 @@ public class Extra1 {
                 }
             }
         }
+
+        scan.close();
     }
 }

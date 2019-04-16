@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Atividade18 {
     public static void main(String[] args) {
+        System.out.println("ALGORITMO CALCULADORA CASO");
         System.out.println("Insira 2 números:");
         Scanner scan = new Scanner(System.in);
 
@@ -30,5 +31,7 @@ public class Atividade18 {
                 System.out.println("Operador inválido");
                 break;
         }
+
+        scan.close();
     }
 }

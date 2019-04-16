@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Atividade20 {
     public static void main(String[] args) {
+        System.out.println("ALGORITMO PASSAGENS");
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Insira a região da viagem:");
@@ -39,5 +40,7 @@ public class Atividade20 {
                 System.out.println("Valor da passagem é de: " + valor);
             }
         }
+
+        scan.close();
     }
 }
