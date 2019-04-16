@@ -1,0 +1,270 @@
+#11
+import java.util.Scanner;
+public class Maioridade {
+	
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+	    System.out.println("Digite o seu nome:");
+		String nome = scanner.next();
+	    System.out.println("Digite sua idade:");
+		int idade = scanner.nextInt();
+		scanner.close();
+		if(idade >= 18)
+			System.out.println(nome);
+		
+	}
+}
+
+
+#13
+import java.util.Scanner;
+
+public class Crescente {
+	
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		int m1, m2, m3;
+	    System.out.println("Digite três números:");
+		int n1 = scanner.nextInt();
+		int n2 = scanner.nextInt();
+		int n3 = scanner.nextInt();
+		scanner.close();
+		if (n1 > n2) {
+		  m1 = n1;
+		  m2 = n2;
+		} else {
+		  m1 = n2;
+		  m2 = n1;
+		}
+		if(n3 > m1) {
+		  m3 = m2;
+		  m2 = m1;
+		  m1 = n3;
+		} else {
+			if (n3 > m2) {
+			    m3 = m2;
+			    m2 = n3;
+			} else {
+			    m3 = n3;
+			}
+		}
+	    System.out.println(m1 + " " + m2 + " " + m3);
+	}
+}
+
+
+#15
+public class Troca {
+	
+	public static void main(String[] args) {
+		int a = 5;
+		int b = 18;
+		int temp = a;
+		a = b;
+		b = temp;
+	    System.out.println(a + " " + b);
+	}
+}
+
+
+#17
+import java.util.Scanner;
+
+public class Mes {
+	
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+	    System.out.println("Digite um mês do ano:");
+		int mes = scanner.nextInt();
+		switch(mes) {
+			case 1:
+				System.out.println("mês = " + mes + " - Janeiro");
+				break;
+			case 2:
+				System.out.println("mês = " + mes + " - Fevereiro");
+				break;
+			case 3:
+				System.out.println("mês = " + mes + " - Março");
+				break;
+			case 4:
+				System.out.println("mês = " + mes + " - Abril");
+				break;
+			case 5:
+				System.out.println("mês = " + mes + " - Maio");
+				break;
+			case 6:
+				System.out.println("mês = " + mes + " - Junho");
+				break;
+			case 7:
+				System.out.println("mês = " + mes + " - Julho");
+				break;				
+			case 8:
+				System.out.println("mês = " + mes + " - Agosto");
+				break;
+			case 9:
+				System.out.println("mês = " + mes + " - Setembro");
+				break;
+			case 10:
+				System.out.println("mês = " + mes + " - Outubro");
+				break;
+			case 11:
+				System.out.println("mês = " + mes + " - Novembro");
+				break;
+			case 12:
+				System.out.println("mês = " + mes + " - Dezembro");
+				break;
+		}
+		scanner.close();
+	    
+	}
+}
+
+
+#19
+import java.util.Scanner;
+
+public class Emprestimo {
+	
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+	    System.out.println("Digite seu salário :");
+		double salario = scanner.nextDouble();
+	    System.out.println("Digite o valor da prestacao :");
+		double prestacao = scanner.nextDouble();
+		scanner.close();
+		if (prestacao > (salario * .3)) {
+		    System.out.println("Valor não aprovado.");
+		} else {
+		    System.out.println("Tudo certo!");
+		}
+	}
+}
+
+
+#21
+import java.util.Scanner;
+
+public class DigtVerificador {
+	public static void main(String[] args) {
+		int d1, d2, d3, digVerificador, numContaInverso, numContaSomado;
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Insira o número da conta:");
+		int numConta = scanner.nextInt();
+		scanner.close();
+		if ((numConta >= 100) && (numConta <= 999)){
+			d1 = (numConta % 10) * 100;
+			d2 = (numConta/10 % 10) * 10;
+			d3 = (numConta/100 % 10);
+			numContaInverso = d1 + d2 + d3;
+
+			numContaSomado = numConta + numContaInverso;
+
+			d1 = (numContaSomado % 10);
+			d2 = (numContaSomado/10 % 10);
+			d3 = (numContaSomado/100 % 10);
+
+			digVerificador = (d1 + (d2*2) + (d3*3)) % 10;
+			System.out.println("Dígito verificado da conta "+ numConta + " é "+ digVerificador);
+		}else {
+			System.out.println("Número da conta inválido. Deve conter 3 dígitos (sem zero a esquerda)!");
+		}
+
+	}
+}
+
+
+#2
+import java.util.Scanner;
+
+public class Estacionamento {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Digite 1 para moto e 2 para carro:");
+		int veiculo = scanner.nextInt();
+		System.out.println("Digite em minutos o tempo estacionado:");
+		int minutos = scanner.nextInt();
+		scanner.close();
+		if (minutos <= 15) {
+			System.out.println("Digite em minutos o tempo estacionado:");
+		}else if(minutos < 180){
+			if(veiculo == 1)
+				System.out.println("R$17,00");
+			else
+				System.out.println("R$20,00");
+		}else{
+			if(veiculo == 1)
+				System.out.println("R$" + (17 + ((minutos - 180) * 0.10)));
+			else
+				System.out.println("R$" + (20 + ((minutos - 180) * 0.10)));
+		}
+	}
+}
+
+
+#3
+import java.util.Scanner;
+
+public class Salarios {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Digite o valor do salário:");
+		double salario = scanner.nextDouble();
+		if(salario > 998) {
+			System.out.println("Menu de opçoes");
+			System.out.println("1. Calcular o novo salário");
+			System.out.println("2. Calcular o imposto");
+			System.out.println("3. Classificação");
+			System.out.println("4. Sair");
+			System.out.println("Digite a opção desejada:");
+			int option = scanner.nextInt();
+			switch(option) {
+				case 4:
+					System.out.println("Saindo...");
+					break;
+				case 1:				
+					if(salario < 1008) {
+						System.out.println("Novo salário: R$" + (salario + 240));
+					}else if(salario <= 2000) {
+						System.out.println("Novo salário: R$" + (salario + 430));
+					}else if(salario <= 7000) {
+						System.out.println("Novo salário: R$" + (salario + 500));
+					}else{
+						System.out.println("Novo salário: R$" + (salario + 630));
+					}
+					break;
+				case 2:
+					if(salario <= 1903.98) {
+						System.out.println("Desconto: 0");
+					}else if(salario <= 2826.65) {
+						System.out.println("Desconto: " + (salario * .075));
+					}else if(salario <= 3751.05 ) {
+						System.out.println("Desconto: " + (salario * .15));
+					}else if(salario <= 4664.68){
+						System.out.println("Desconto: " + (salario * .225));
+					}else{
+						System.out.println("Desconto: " + (salario * .275));
+					}
+					break;
+				case 3:
+					if(salario <= 4000) {
+						System.out.println("Analista de Programação Júnior");
+					}else if(salario <= 7500.99) {
+						System.out.println("Analista de Programação Pleno");
+					}else if(salario <= 10000 ) {
+						System.out.println("Analista de Programação Senior");
+					}else{
+						System.out.println("Gerente");
+					}
+					break;
+			}
+		} else {
+			System.out.println("Salário abaixo do permitido.");			
+		}
+		scanner.close();
+	}
+}
