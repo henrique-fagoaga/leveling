@@ -190,7 +190,7 @@ public class Estacionamento {
 		int minutos = scanner.nextInt();
 		scanner.close();
 		if (minutos <= 15) {
-			System.out.println("Digite em minutos o tempo estacionado:");
+			System.out.println("R$0,00");
 		}else if(minutos < 180){
 			if(veiculo == 1)
 				System.out.println("R$17,00");
