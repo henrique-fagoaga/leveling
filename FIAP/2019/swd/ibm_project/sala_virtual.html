@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="pt-br" xml:lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="https://on.fiap.com.br/theme/image.php/fiap/theme/1555450357/favicon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Conteúdo Digital</title>
+    <link rel='stylesheet' id='google-roboto-css' href='https://fonts.googleapis.com/css?family=Roboto%3A400%2C100%2C100italic%2C300%2C300italic%2C400italic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic&#038;ver=4.5.3' type='text/css' media='all'/>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Conteúdo Digital" />
+<link rel="stylesheet" type="text/css" href="https://on.fiap.com.br/theme/yui_combo.php?3.17.2/cssreset/cssreset-min.css&amp;3.17.2/cssfonts/cssfonts-min.css&amp;3.17.2/cssgrids/cssgrids-min.css&amp;3.17.2/cssbase/cssbase-min.css" /><link rel="stylesheet" type="text/css" href="https://on.fiap.com.br/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://on.fiap.com.br/theme/styles.php/fiap/1555450357_1550152693/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/on.fiap.com.br","sesskey":"Pdgja9oA73","themerev":"1555450357","slasharguments":1,"theme":"fiap","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1555450357","admin":"admin","svgicons":true,"usertimezone":"Am\u00e9rica\/S\u00e3o_Paulo","contextid":65551};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/on.fiap.com.br\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/on.fiap.com.br\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/on.fiap.com.br\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/on.fiap.com.br\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/on.fiap.com.br\/theme\/yui_combo.php?m\/1555450357\/","combine":true,"comboBase":"https:\/\/on.fiap.com.br\/theme\/yui_combo.php?","ext":false,"root":"m\/1555450357\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-beautify":{},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/on.fiap.com.br\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/on.fiap.com.br\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1555450357\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/on.fiap.com.br\/lib\/javascript.php\/1555450357\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/on.fiap.com.br\/lib\/javascript.php\/1555450357\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+</head>
+
+<body  id="page-local-salavirtual-conteudo-digital" class="format-site  path-local path-local-salavirtual path-local-salavirtual-conteudo chrome dir-ltr lang-pt_br yui-skin-sam yui3-skin-sam on-fiap-com-br pagelayout-template-fiapon course-1 context-65551 ">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Ir para o conteúdo principal</a>
+</div><script type="text/javascript" src="https://on.fiap.com.br/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script type="text/javascript" src="https://on.fiap.com.br/lib/javascript.php/1555450357/lib/javascript-static.js"></script>
+<script type="text/javascript" src="https://on.fiap.com.br/theme/javascript.php/fiap/1555450357/head"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+
+    <nav class="menu  ">
+        <div class="menu-main">
+            <div class="menu-main-columns">
+                <div class="menu-main-column">
+                    <button class="menu-main-btn js-menu-left-toggle">
+                        Abrir/Fechar Menu
+                    </button>
+                </div>
+
+                <div class="menu-main-column">
+                    <a href="https://on.fiap.com.br/local/salavirtual/conteudo-digital.php">
+                        <svg class="menu-main-logo" viewBox="0 0 141.8 20.6">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo-fiap-on"></use>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+
+            <ul class="menu-main-ferramentas">
+
+
+
+
+                <li class="menu-main-ferramentas-item t-calendario">
+                    <a data-notificacao="calendario" class="menu-main-ferramentas-link js-notificacao-link">
+                        <svg class="menu-main-ferramentas-icon" viewBox="0 0 21 21">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-calendario"></use>
+                        </svg>
+                    </a>
+                    
+                    <aside class="notificacoes-aside calendario">
+                        <h3 class="notificacoes-title">Calendário da semana</h3>
+                        <div class="notificacoes-aside-scroll">
+                    
+                                <div class="notificacoes-no-list">
+                                    Não há eventos no calendário para esta semana.
+                                <div>
+                    
+                        </div>
+                    </aside>
+                </li>
+
+                <li class="menu-main-ferramentas-item m-hide t-forum">
+                    <a data-notificacao="forum" class="menu-main-ferramentas-link js-notificacao-link  is-new  ">
+                        <svg class="menu-main-ferramentas-icon" viewBox="0 0 24 25">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-forum"></use>
+                        </svg>
+                    </a>
+                    
+                    <aside class="notificacoes-aside forum">
+                        <div class="notificacoes-title-forum notificacoes-title-position">
+                            <svg class="icon" viewBox="0 0 24 25">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-forum"></use>
+                            </svg>
+                            Atividades do fórum
+                            <div class="notificacoes-limpar-content">
+                                <a href="https://on.fiap.com.br/local/limpar-notificacoes.php?tipo=forum">
+                                    <svg class="notificacao-limpar-avisos-svg" viewBox="0 0 484 449">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-limpar-notificacao"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="notificacoes-aside-scroll">
+                                <ul class="notificacoes-list">
+                                    <li class="notificacoes-list-item  ">
+                                        <a href="https://on.fiap.com.br/local/notificacoes/view-atividade-forum.php?id=653805" class="wrapper">
+                                            <img src="https://on.fiap.com.br/theme/image.php/fiap/core/1555450357/u/f1" class="notificacao-forum-user">
+                    
+                                            <div class="content">
+                                                <h3 class="title">
+                                                    Helio do Nascimento criou um novo tópico no fórum
+                                                </h3>
+                                                <p class="desc">
+                                                    
+                                                </p>
+                                                <span class="date">
+                                                    <i class="ion-android-time"></i> 14/04/2019 12:30
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                    
+                    
+                        </div>
+                    </aside>
+                </li>
+
+                <li class="menu-main-ferramentas-item t-alertas">
+                    <a data-notificacao="alerta" class="menu-main-ferramentas-link js-notificacao-link is-new">
+                        <svg class="menu-main-ferramentas-icon" viewBox="0 0 20 18">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-alertas"></use>
+                        </svg>
+                    </a>
+                    
+                    <aside class="notificacoes-aside alerta">
+                        <div class="notificacoes-title notificacoes-title-position">Alertas <br>
+                            <div class="notificacoes-limpar-content">
+                                <a href="https://on.fiap.com.br/local/limpar-notificacoes.php?tipo=others">
+                                    <svg class="notificacao-limpar-avisos-svg" viewBox="0 0 484 449">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-limpar-notificacao"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="notificacoes-aside-scroll">
+                            <ul class="notificacoes-list">
+                                <li class="notificacoes-list-item avisos-portal ">
+                                    <a href="#modal-alerta" class="wrapper open-modal-alerta" data-codigo-aviso-portal="48612">
+                                        <i class="notificacao-icon portal"></i>
+                                        <div class="content">
+                                            <div class="title">Pesquisa de Satisfação - Semana de Palestras de Carreiras (TALENT LAB - FIAP)</div>
+                    
+                                            <span class="date">
+                                                <i class="ion-android-time"></i> 15/04/2019 00:00
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notificacoes-list-item avisos-portal ">
+                                    <a href="#modal-alerta" class="wrapper open-modal-alerta" data-codigo-aviso-portal="48610">
+                                        <i class="notificacao-icon portal"></i>
+                                        <div class="content">
+                                            <div class="title">Oportunidade de Vaga: Analista de Pré-vendas em Redes e Segurança da Informação</div>
+                    
+                                            <span class="date">
+                                                <i class="ion-android-time"></i> 12/04/2019 00:00
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notificacoes-list-item avisos-portal ">
+                                    <a href="#modal-alerta" class="wrapper open-modal-alerta" data-codigo-aviso-portal="48609">
+                                        <i class="notificacao-icon portal"></i>
+                                        <div class="content">
+                                            <div class="title">Universo TOTVS 2019</div>
+                    
+                                            <span class="date">
+                                                <i class="ion-android-time"></i> 12/04/2019 00:00
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notificacoes-list-item avisos-portal ">
+                                    <a href="#modal-alerta" class="wrapper open-modal-alerta" data-codigo-aviso-portal="48027">
+                                        <i class="notificacao-icon portal"></i>
+                                        <div class="content">
+                                            <div class="title">Aplicação Prova TOEFL ITP</div>
+                    
+                                            <span class="date">
+                                                <i class="ion-android-time"></i> 19/03/2019 00:00
+                                            </span>
+                                        </div>
+                                    </a>
+                                </li>
+                    
+                            </ul>
+                    
+                        </div>
+                    </aside>
+                </li>
+
+                <li class="menu-main-ferramentas-item m-hide t-perfil">
+                    <a href="https://on.fiap.com.br/local/perfil/" class="menu-main-ferramentas-link perfil">
+                        <img src="https://on.fiap.com.br/theme/image.php/fiap/core/1555450357/u/f1>" class="menu-main-ferramentas-perfil">
+                        <span class="txt-perfil">Perfil</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div id="modal-alerta" class="notificacao-modal zoom-anim-dialog mfp-hide">
+            <div class="content-modal-alerta"></div>
+        </div>
+
+            <div class="menu-left">
+                <ul class="menu-left-list">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                    <li class="menu-left-item">
+                        <a href="javascript:void(0);" class="menu-left-link">
+                            <div class="menu-left-icon-content">
+                                <svg class="menu-left-icon" viewBox="0 0 52.365 56.849">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-disciplina"></use>
+                                </svg>
+                            </div>
+                        </a>
+            
+                        <div class="menu-left-second-nivel-disciplina">
+                            <ul class="menu-left-second-nivel-disciplina-list">
+                                        <li class="menu-left-second-nivel-disciplina-item">
+                                            <a href="https://on.fiap.com.br/troca-turma.php?id=497" class="disciplina-link">
+                                                <div class="nome-unidade">
+                                                    Graduação 
+                                                </div>
+                                        
+                                                <span class="ano-atual">
+                                                    1 ano • 2019
+                                                </span>
+                                        
+                                                <div class="nome-disciplina">
+                                                    Análise e Desenvolvimento de Sistemas
+                                                </div>
+                                        
+                                        
+                                            </a>
+                                        </li>
+            
+            
+                                        <li class="menu-left-second-nivel-disciplina-item">
+                                            <a href="https://on.fiap.com.br/troca-curso.php?id=1587" class="disciplina-link">
+                                                <div class="nome-unidade">
+                                                    Graduação 
+                                                </div>
+                                        
+                                                <div class="nome-disciplina">
+                                                    Algoritmos
+                                                </div>
+                                        
+                                            </a>
+                                        </li>
+            
+                                        <li class="menu-left-second-nivel-disciplina-item">
+                                            <a href="https://on.fiap.com.br/troca-curso.php?id=1586" class="disciplina-link">
+                                                <div class="nome-unidade">
+                                                    Graduação 
+                                                </div>
+                                        
+                                                <div class="nome-disciplina">
+                                                    Português
+                                                </div>
+                                        
+                                            </a>
+                                        </li>
+            
+                                        <li class="menu-left-second-nivel-disciplina-item">
+                                            <a href="https://on.fiap.com.br/troca-curso.php?id=1585" class="disciplina-link">
+                                                <div class="nome-unidade">
+                                                    Graduação 
+                                                </div>
+                                        
+                                                <div class="nome-disciplina">
+                                                    Matemática
+                                                </div>
+                                        
+                                            </a>
+                                        </li>
+                            </ul>
+                        </div>
+                    </li>
+            
+                        <li class="menu-left-item">
+                            <a href="https://on.fiap.com.br/mod/forum/view.php?id=39776" class="menu-left-link">
+                                <div class="menu-left-icon-content">
+                                    <svg class="menu-left-icon" viewBox="0 0 24 25">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-forum"></use>
+                                    </svg>
+                                </div>
+                                <div class="menu-left-nome-item">Fórum</div>
+                            </a>
+                        </li>
+            
+                    <li class="menu-left-item">
+                        <a href="https://on.fiap.com.br/local/tutoria/" class="menu-left-link">
+                            <div class="menu-left-icon-content">
+                                <svg class="menu-left-icon" viewBox="0 0 21.313 15.594">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-fale-com-professor"></use>
+                                </svg>
+                            </div>
+                            <div class="menu-left-nome-item">Fale com a gente</div>
+                        </a>
+                    </li>
+            
+                        <li class="menu-left-item">
+                            <a href="https://on.fiap.com.br/local/calendario/" class="menu-left-link">
+                                <div class="menu-left-icon-content">
+                                    <svg class="menu-left-icon" viewBox="0 0 25.156 24.505">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-calendario"></use>
+                                    </svg>
+                                </div>
+                                <div class="menu-left-nome-item">Calendário</div>
+                            </a>
+                        </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                    <li class="menu-left-item">
+                        <a href="https://on.fiap.com.br/fiaplogin/logout.php?sesskey=Pdgja9oA73&amp;loginpage=1" class="menu-left-link">
+                            <div class="menu-left-icon-content">
+                                <svg class="menu-left-icon" viewBox="0 0 111 117">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-sair"></use>
+                                </svg>
+                            </div>
+                            <div class="menu-left-nome-item">Sair</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+
+    <input type="hidden" id="domain" value="https://on.fiap.com.br/">
+    <input type="hidden" id="fullpath" value="https://on.fiap.com.br/local/salavirtual/conteudo-digital.php">
+
+<section class="main">
+    <div class="main-box">
+        <div class="main-wrapper">
+            <div role="main"><span id="maincontent"></span><div class="section-conteudo-digital">
+
+        <div class="conteudo-digital-wrapper">
+
+            <div class="conteudo-digital-course-list">
+
+                <div class="conteudo-digital-disciplina-group">
+
+                    <div class="conteudo-digital-disciplina-content t-conteudo-digital-infos-curso">
+                        <h1 class="conteudo-digital-disciplina-unidade">
+                            Graduação 
+                        </h1>
+
+
+                        <h3 class="conteudo-digital-disciplina-title">
+                            Algoritmos
+                        </h3>
+                    </div>
+
+
+                        <div class="conteudo-digital-list">
+                                <div class="conteudo-digital-item     ">
+
+                                    <i class="ion ion-locked conteudo-digital-icon-status is-locked-icon" data-toggle="tooltip" data-placement="top" title="Conteúdo disponível a partir de 10/01"></i>
+
+                                    <div class="conteudo-digital-name">
+                                        <div class="conteudo-digital-txt-name">
+                                            Cap 1 - Princípios da programação
+                                        </div>
+
+                                            
+
+
+                                    </div>
+
+
+
+                                            <div class="conteudo-digital-buttons-group">
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                                            <a href="https://on.fiap.com.br/mod/conteudoshtml/view.php?id=38011&amp;c=1587" class="conteudo-link t-conteudo-digital">
+                                                                <svg viewBox="0 0 16.75 15.094" height="15">
+                                                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-conteudo-digital"></use>
+                                                                </svg>
+                                                            </a>
+                                                            <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                <span></span>
+                                                                <span></span>
+                                                                <span></span>
+                                                                <span></span>
+                                                            </div>
+                                                        </div>
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                        
+                                                                <a href="https://on.fiap.com.br/local/salavirtual/conteudo-video.php?c=1587&id=38018" class="conteudo-link t-conteudo-video">
+                                                                    <svg viewBox="0 0 7 10" height="15">
+                                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-player-play"></use>
+                                                                    </svg>
+                                                                </a>
+                                        
+                                                                <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                </div>
+                                                        </div>
+                                        
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                        
+                                                                <a href="https://on.fiap.com.br/mod/conteudospdf/view.php?c=1587&id=38025" class="conteudo-link t-conteudo-pdf">
+                                                                    <svg class="menu-left-icon" viewBox="0 0 15.25 17.813" height="15">
+                                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-conteudo-pdf"></use>
+                                                                    </svg>
+                                                                </a>
+                                        
+                                                                <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                </div>
+                                                        </div>
+                                        
+                                        
+                                            </div>
+                                </div>
+                                <div class="conteudo-digital-item     ">
+
+                                    <i class="ion ion-locked conteudo-digital-icon-status is-locked-icon" data-toggle="tooltip" data-placement="top" title="Conteúdo disponível a partir de 10/01"></i>
+
+                                    <div class="conteudo-digital-name">
+                                        <div class="conteudo-digital-txt-name">
+                                            Cap 2 - Tomada de Decisão
+                                        </div>
+
+                                            
+
+
+                                    </div>
+
+
+
+                                            <div class="conteudo-digital-buttons-group">
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                                            <a href="https://on.fiap.com.br/mod/conteudoshtml/view.php?id=38012&amp;c=1587" class="conteudo-link t-conteudo-digital">
+                                                                <svg viewBox="0 0 16.75 15.094" height="15">
+                                                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-conteudo-digital"></use>
+                                                                </svg>
+                                                            </a>
+                                                            <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                <span></span>
+                                                                <span></span>
+                                                                <span></span>
+                                                                <span></span>
+                                                            </div>
+                                                        </div>
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                        
+                                                                <a href="https://on.fiap.com.br/local/salavirtual/conteudo-video.php?c=1587&id=38019" class="conteudo-link t-conteudo-video">
+                                                                    <svg viewBox="0 0 7 10" height="15">
+                                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-player-play"></use>
+                                                                    </svg>
+                                                                </a>
+                                        
+                                                                <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                </div>
+                                                        </div>
+                                        
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                        
+                                                                <a href="https://on.fiap.com.br/mod/conteudospdf/view.php?c=1587&id=38026" class="conteudo-link t-conteudo-pdf">
+                                                                    <svg class="menu-left-icon" viewBox="0 0 15.25 17.813" height="15">
+                                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-conteudo-pdf"></use>
+                                                                    </svg>
+                                                                </a>
+                                        
+                                                                <div class="progresso-conteudo digital" data-porcentagem="100">
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                </div>
+                                                        </div>
+                                        
+                                        
+                                            </div>
+                                </div>
+                                <div class="conteudo-digital-item     ">
+
+                                    <i class="ion ion-locked conteudo-digital-icon-status is-locked-icon" data-toggle="tooltip" data-placement="top" title="Conteúdo disponível a partir de 10/01"></i>
+
+                                    <div class="conteudo-digital-name">
+                                        <div class="conteudo-digital-txt-name">
+                                            Cap 3 - Estruturas de Repetição
+                                        </div>
+
+                                            
+
+
+                                    </div>
+
+
+
+                                            <div class="conteudo-digital-buttons-group">
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                                            <a href="https://on.fiap.com.br/mod/conteudoshtml/view.php?id=38013&amp;c=1587" class="conteudo-link t-conteudo-digital">
+                                                                <svg viewBox="0 0 16.75 15.094" height="15">
+                                                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-conteudo-digital"></use>
+                                                                </svg>
+                                                            </a>
+                                                            <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                <span></span>
+                                                                <span></span>
+                                                                <span></span>
+                                                                <span></span>
+                                                            </div>
+                                                        </div>
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                        
+                                                                <a href="https://on.fiap.com.br/local/salavirtual/conteudo-video.php?c=1587&id=38020" class="conteudo-link t-conteudo-video">
+                                                                    <svg viewBox="0 0 7 10" height="15">
+                                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-player-play"></use>
+                                                                    </svg>
+                                                                </a>
+                                        
+                                                                <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                </div>
+                                                        </div>
+                                        
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                        
+                                                                <a href="https://on.fiap.com.br/mod/conteudospdf/view.php?c=1587&id=38027" class="conteudo-link t-conteudo-pdf">
+                                                                    <svg class="menu-left-icon" viewBox="0 0 15.25 17.813" height="15">
+                                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-conteudo-pdf"></use>
+                                                                    </svg>
+                                                                </a>
+                                        
+                                                                <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                </div>
+                                                        </div>
+                                        
+                                        
+                                            </div>
+                                </div>
+                                <div class="conteudo-digital-item     ">
+
+                                    <i class="ion ion-locked conteudo-digital-icon-status is-locked-icon" data-toggle="tooltip" data-placement="top" title="Conteúdo disponível a partir de 10/01"></i>
+
+                                    <div class="conteudo-digital-name">
+                                        <div class="conteudo-digital-txt-name">
+                                            Cap 4 - Vetores e Matrizes
+                                        </div>
+
+                                            
+
+
+                                    </div>
+
+
+
+                                            <div class="conteudo-digital-buttons-group">
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                                            <a href="https://on.fiap.com.br/mod/conteudoshtml/view.php?id=38014&amp;c=1587" class="conteudo-link t-conteudo-digital">
+                                                                <svg viewBox="0 0 16.75 15.094" height="15">
+                                                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-conteudo-digital"></use>
+                                                                </svg>
+                                                            </a>
+                                                            <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                <span></span>
+                                                                <span></span>
+                                                                <span></span>
+                                                                <span></span>
+                                                            </div>
+                                                        </div>
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                        
+                                                                <a href="https://on.fiap.com.br/local/salavirtual/conteudo-video.php?c=1587&id=38021" class="conteudo-link t-conteudo-video">
+                                                                    <svg viewBox="0 0 7 10" height="15">
+                                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-player-play"></use>
+                                                                    </svg>
+                                                                </a>
+                                        
+                                                                <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                </div>
+                                                        </div>
+                                        
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                        
+                                                                <a href="https://on.fiap.com.br/mod/conteudospdf/view.php?c=1587&id=38028" class="conteudo-link t-conteudo-pdf">
+                                                                    <svg class="menu-left-icon" viewBox="0 0 15.25 17.813" height="15">
+                                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-conteudo-pdf"></use>
+                                                                    </svg>
+                                                                </a>
+                                        
+                                                                <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                </div>
+                                                        </div>
+                                        
+                                        
+                                            </div>
+                                </div>
+                                <div class="conteudo-digital-item     ">
+
+                                    <i class="ion ion-locked conteudo-digital-icon-status is-locked-icon" data-toggle="tooltip" data-placement="top" title="Conteúdo disponível a partir de 10/01"></i>
+
+                                    <div class="conteudo-digital-name">
+                                        <div class="conteudo-digital-txt-name">
+                                            Cap 5 - Análise Algorítima
+                                        </div>
+
+                                            
+
+
+                                    </div>
+
+
+
+                                            <div class="conteudo-digital-buttons-group">
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                                            <a href="https://on.fiap.com.br/mod/conteudoshtml/view.php?id=38015&amp;c=1587" class="conteudo-link t-conteudo-digital">
+                                                                <svg viewBox="0 0 16.75 15.094" height="15">
+                                                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-conteudo-digital"></use>
+                                                                </svg>
+                                                            </a>
+                                                            <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                <span></span>
+                                                                <span></span>
+                                                                <span></span>
+                                                                <span></span>
+                                                            </div>
+                                                        </div>
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                        
+                                                                <a href="https://on.fiap.com.br/local/salavirtual/conteudo-video.php?c=1587&id=38022" class="conteudo-link t-conteudo-video">
+                                                                    <svg viewBox="0 0 7 10" height="15">
+                                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-player-play"></use>
+                                                                    </svg>
+                                                                </a>
+                                        
+                                                                <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                </div>
+                                                        </div>
+                                        
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                        
+                                                                <a href="https://on.fiap.com.br/mod/conteudospdf/view.php?c=1587&id=38029" class="conteudo-link t-conteudo-pdf">
+                                                                    <svg class="menu-left-icon" viewBox="0 0 15.25 17.813" height="15">
+                                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-conteudo-pdf"></use>
+                                                                    </svg>
+                                                                </a>
+                                        
+                                                                <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                </div>
+                                                        </div>
+                                        
+                                        
+                                            </div>
+                                </div>
+                                <div class="conteudo-digital-item     ">
+
+                                    <i class="ion ion-locked conteudo-digital-icon-status is-locked-icon" data-toggle="tooltip" data-placement="top" title="Conteúdo disponível a partir de 10/01"></i>
+
+                                    <div class="conteudo-digital-name">
+                                        <div class="conteudo-digital-txt-name">
+                                            Cap 6 - Ordenação de Vetores
+                                        </div>
+
+                                            
+
+
+                                    </div>
+
+
+
+                                            <div class="conteudo-digital-buttons-group">
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                                            <a href="https://on.fiap.com.br/mod/conteudoshtml/view.php?id=38016&amp;c=1587" class="conteudo-link t-conteudo-digital">
+                                                                <svg viewBox="0 0 16.75 15.094" height="15">
+                                                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-conteudo-digital"></use>
+                                                                </svg>
+                                                            </a>
+                                                            <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                <span></span>
+                                                                <span></span>
+                                                                <span></span>
+                                                                <span></span>
+                                                            </div>
+                                                        </div>
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                        
+                                                                <a href="https://on.fiap.com.br/local/salavirtual/conteudo-video.php?c=1587&id=38023" class="conteudo-link t-conteudo-video">
+                                                                    <svg viewBox="0 0 7 10" height="15">
+                                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-player-play"></use>
+                                                                    </svg>
+                                                                </a>
+                                        
+                                                                <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                </div>
+                                                        </div>
+                                        
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                        
+                                                                <a href="https://on.fiap.com.br/mod/conteudospdf/view.php?c=1587&id=38030" class="conteudo-link t-conteudo-pdf">
+                                                                    <svg class="menu-left-icon" viewBox="0 0 15.25 17.813" height="15">
+                                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-conteudo-pdf"></use>
+                                                                    </svg>
+                                                                </a>
+                                        
+                                                                <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                </div>
+                                                        </div>
+                                        
+                                        
+                                            </div>
+                                </div>
+                                <div class="conteudo-digital-item     ">
+
+                                    <i class="ion ion-locked conteudo-digital-icon-status is-locked-icon" data-toggle="tooltip" data-placement="top" title="Conteúdo disponível a partir de 10/01"></i>
+
+                                    <div class="conteudo-digital-name">
+                                        <div class="conteudo-digital-txt-name">
+                                            Cap 7 - Busca
+                                        </div>
+
+                                            
+
+
+                                    </div>
+
+
+
+                                            <div class="conteudo-digital-buttons-group">
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                                            <a href="https://on.fiap.com.br/mod/conteudoshtml/view.php?id=38017&amp;c=1587" class="conteudo-link t-conteudo-digital">
+                                                                <svg viewBox="0 0 16.75 15.094" height="15">
+                                                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-conteudo-digital"></use>
+                                                                </svg>
+                                                            </a>
+                                                            <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                <span></span>
+                                                                <span></span>
+                                                                <span></span>
+                                                                <span></span>
+                                                            </div>
+                                                        </div>
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                        
+                                                                <a href="https://on.fiap.com.br/local/salavirtual/conteudo-video.php?c=1587&id=38024" class="conteudo-link t-conteudo-video">
+                                                                    <svg viewBox="0 0 7 10" height="15">
+                                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-player-play"></use>
+                                                                    </svg>
+                                                                </a>
+                                        
+                                                                <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                </div>
+                                                        </div>
+                                        
+                                        
+                                                        <div class="conteudo-digital-button-column">
+                                        
+                                                                <a href="https://on.fiap.com.br/mod/conteudospdf/view.php?c=1587&id=38031" class="conteudo-link t-conteudo-pdf">
+                                                                    <svg class="menu-left-icon" viewBox="0 0 15.25 17.813" height="15">
+                                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu-conteudo-pdf"></use>
+                                                                    </svg>
+                                                                </a>
+                                        
+                                                                <div class="progresso-conteudo digital" data-porcentagem="0">
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                </div>
+                                                        </div>
+                                        
+                                        
+                                            </div>
+                                </div>
+                        </div>
+
+                </div><!-- .conteudo-digital-disciplina-group -->
+
+            </div><!-- .conteudo-digital-course-list -->
+
+        </div>
+
+
+
+</div></div>
+        </div>
+    </div>
+</section>
+
+
+    <script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://on.fiap.com.br/lib/requirejs.php/1555450357/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://on.fiap.com.br/lib/javascript.php/1555450357/lib/jquery/jquery-3.2.1.min',
+        jqueryui: 'https://on.fiap.com.br/lib/javascript.php/1555450357/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://on.fiap.com.br/lib/javascript.php/1555450357/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="https://on.fiap.com.br/lib/javascript.php/1555450357/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+
+require(['theme_boost/loader']);
+require(['theme_boost/drawer'], function(mod) {
+mod.init();
+});
+;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });;
+require(["core/page_global"], function(amd) { amd.init(); });
+});
+//]]>
+</script>
+<script type="text/javascript" src="https://on.fiap.com.br/local/salavirtual/javascript/conteudo-progress.js"></script>
+<script type="text/javascript" src="https://on.fiap.com.br/theme/javascript.php/fiap/1555450357/footer"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u00daltima atualiza\u00e7\u00e3o","name":"Nome","error":"Erro","info":"Informa\u00e7\u00e3o","yes":"Sim","no":"N\u00e3o","cancel":"Cancelar","confirm":"Confirmar","areyousure":"Voc\u00ea tem certeza?","closebuttontitle":"Fechar","unknownerror":"Erro desconhecido"},"repository":{"type":"Tipo","size":"Tamanho","invalidjson":"palavra JSON inv\u00e1lida","nofilesattached":"Nenhum arquivo anexado","filepicker":"Seletor de arquivos","logout":"Sair","nofilesavailable":"Nenhum arquivo dispon\u00edvel","norepositoriesavailable":"Desculpe, nenhum dos seus reposit\u00f3rios atuais pode retornar arquivos no formato solicitado.","fileexistsdialogheader":"Arquivo existe","fileexistsdialog_editor":"Um arquivo com este nome j\u00e1 foi anexado ao texto que voc\u00ea est\u00e1 editando","fileexistsdialog_filemanager":"Um arquivo com este nome j\u00e1 foi anexado","renameto":"Renomear para \"{$a}\"","referencesexist":"H\u00e1 {$a} arquivos pseud\u00f4nimos\/atalhos que usam este arquivo como fonte","select":"Selecione"},"admin":{"confirmdeletecomments":"Voc\u00ea est\u00e1 prestes a excluir coment\u00e1rios, tem certeza?","confirmation":"Confirma\u00e7\u00e3o"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {M.util.help_popups.setup(Y);
+ M.util.js_pending('random5cb712f807a1a2'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5cb712f807a1a2'); });
+})();
+//]]>
+</script>
+
+</body>
+</html>
