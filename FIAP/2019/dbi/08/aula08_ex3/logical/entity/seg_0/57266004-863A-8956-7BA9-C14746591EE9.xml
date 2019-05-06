@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57266004-863A-8956-7BA9-C14746591EE9" name="T_ALUNO_GRADUACAO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 14:29:59 UTC</createdTime>
+<ownerDesignName>aula08_ex3</ownerDesignName>
+<engineerTo>
+<item key="1AFCB16B-46C1-08E8-10F6-9004B8B0679E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_duracao_curso" id="20839B0F-177E-81CA-3EFF-F0E5400E92FE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 14:30:06 UTC</createdTime>
+<ownerDesignName>aula08_ex3</ownerDesignName>
+<engineerTo>
+<item key="1AFCB16B-46C1-08E8-10F6-9004B8B0679E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_turma" id="74530A5E-31EF-6732-677C-B9FE23526AFB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 14:30:31 UTC</createdTime>
+<ownerDesignName>aula08_ex3</ownerDesignName>
+<engineerTo>
+<item key="1AFCB16B-46C1-08E8-10F6-9004B8B0679E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_matricula" id="36F9FF47-5D66-F091-A7DF-D417728E67AA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 14:37:27 UTC</createdTime>
+<generatorID>E38B9921-3EFF-1C42-4D65-19BA1535A6B4</generatorID>
+<ownerDesignName>aula08_ex3</ownerDesignName>
+<engineerTo>
+<item key="1AFCB16B-46C1-08E8-10F6-9004B8B0679E" value="true"/>
+</engineerTo>
+<referedAttribute>DB3C870A-68BA-7FE6-0A0A-B80B5087EE34</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2DEFEC4E-F8F7-1D65-1014-951B05645396" name="T_ALUNO_GRADUACAO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 14:37:29 UTC</createdTime>
+<ownerDesignName>aula08_ex3</ownerDesignName>
+<engineerTo>
+<item key="1AFCB16B-46C1-08E8-10F6-9004B8B0679E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>36F9FF47-5D66-F091-A7DF-D417728E67AA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

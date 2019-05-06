@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B7E43B0-6587-F6F1-678B-78B3F664579F" name="T_DESKTOP_COMPONENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:54:00 UTC</createdTime>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_identificacao" id="5D9B5FE0-5A55-6F83-5465-83B9BAF29968">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:54:16 UTC</createdTime>
+<generatorID>BCF5A7C0-7286-0F15-C1BE-B66ED986FB3B</generatorID>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<referedAttribute>6AEAAE43-C821-FAEB-37B1-BAA793903871</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_identificacao1" id="5D63C053-302C-AFFC-3E55-BAEE591AD6FB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:54:22 UTC</createdTime>
+<generatorID>CAD9D4B0-DDC8-04A9-A796-E5FAF7BA817F</generatorID>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<referedAttribute>097216F4-90B9-1361-C4C0-772216D1BBF5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EAE74DAC-C5F5-D720-DAFE-E6F60CC22832" name="T_DESKTOP_COMPONENTE PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:54:16 UTC</createdTime>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D9B5FE0-5A55-6F83-5465-83B9BAF29968</attributeRef>
+<attributeRef>5D63C053-302C-AFFC-3E55-BAEE591AD6FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

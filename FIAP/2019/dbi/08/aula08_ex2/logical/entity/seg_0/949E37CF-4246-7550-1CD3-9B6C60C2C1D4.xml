@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="949E37CF-4246-7550-1CD3-9B6C60C2C1D4" name="T_PLACA_VIDEO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:47:28 UTC</createdTime>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_identificacao" id="6A32441E-64E1-7FD1-BD2F-8F2375E98A2D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:50:35 UTC</createdTime>
+<generatorID>22D2A902-5438-9D05-B5EE-2D26850521F0</generatorID>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<referedAttribute>097216F4-90B9-1361-C4C0-772216D1BBF5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_interface" id="CF07046C-9A8A-FEA9-231B-B4B06C802059">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:48:03 UTC</createdTime>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_memoria" id="CAF14C23-F93A-0A8D-1D4C-F5BFB111E209">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:48:13 UTC</createdTime>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_velocidade" id="96D4AA42-C7C2-BBCA-A7DC-B79384ECCBFE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:48:18 UTC</createdTime>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="74556713-1ED1-9973-5023-8DD11634D9F5" name="T_PLACA_VIDEO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:50:41 UTC</createdTime>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A32441E-64E1-7FD1-BD2F-8F2375E98A2D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

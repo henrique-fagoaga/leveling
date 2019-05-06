@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C30D5E48-553E-4A02-8401-8848F9A2D4BE" name="T_COMPUTADOR">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:38:15 UTC</createdTime>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_identificacao" id="ECC59F83-DFB9-0403-C079-82BE95A506D9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:38:22 UTC</createdTime>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_serie" id="C3386351-BF4E-2193-B54F-36DBCC4BD484">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:38:26 UTC</createdTime>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_fabricante" id="DCE2E701-B844-0738-4CD4-2A1C134238E8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:39:42 UTC</createdTime>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_modelo" id="BC327B80-E560-7A18-93EA-8BAB6103A62E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:39:47 UTC</createdTime>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_processador" id="C4D35468-97CD-C797-70C4-493756573B1A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:39:58 UTC</createdTime>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_tamanho_hd" id="37CD4666-CBA9-353A-E156-740AED425A72">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:40:04 UTC</createdTime>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F7834749-3764-E1C7-75AD-AD8A231C38BD" name="Computador PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:40:17 UTC</createdTime>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ECC59F83-DFB9-0403-C079-82BE95A506D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

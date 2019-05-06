@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B353D2E3-BF99-005F-7039-4BF9A8464611" name="T_COLAB_PESQUISA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 14:31:29 UTC</createdTime>
+<ownerDesignName>aula08_ex3</ownerDesignName>
+<engineerTo>
+<item key="1AFCB16B-46C1-08E8-10F6-9004B8B0679E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nm_projeto" id="81C3E8D2-9817-AF24-9E54-0775171E97A8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 14:31:37 UTC</createdTime>
+<ownerDesignName>aula08_ex3</ownerDesignName>
+<engineerTo>
+<item key="1AFCB16B-46C1-08E8-10F6-9004B8B0679E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_matricula" id="3F9A1C67-F7BE-0DA4-CCC4-A7B222A4E81D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 14:35:45 UTC</createdTime>
+<generatorID>50E4B834-CC23-422C-EEA7-9F62B971DCE7</generatorID>
+<ownerDesignName>aula08_ex3</ownerDesignName>
+<engineerTo>
+<item key="1AFCB16B-46C1-08E8-10F6-9004B8B0679E" value="true"/>
+</engineerTo>
+<referedAttribute>D4B686FC-F0B1-C1CA-767A-A79E76842E8C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA1D45D8-390A-E114-80FE-60BF5BBC618E" name="T_COLAB_PESQUISA PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 14:35:48 UTC</createdTime>
+<ownerDesignName>aula08_ex3</ownerDesignName>
+<engineerTo>
+<item key="1AFCB16B-46C1-08E8-10F6-9004B8B0679E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3F9A1C67-F7BE-0DA4-CCC4-A7B222A4E81D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

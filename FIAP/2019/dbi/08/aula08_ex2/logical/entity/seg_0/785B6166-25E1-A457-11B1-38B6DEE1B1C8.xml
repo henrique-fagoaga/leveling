@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="785B6166-25E1-A457-11B1-38B6DEE1B1C8" name="T_MEMORIA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:49:59 UTC</createdTime>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_identificacao" id="42FE33A4-3E58-B06E-36E3-9D42C0C824A6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:50:50 UTC</createdTime>
+<generatorID>98E1EC85-B165-3FF2-BC5E-BE85881151FF</generatorID>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<referedAttribute>097216F4-90B9-1361-C4C0-772216D1BBF5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo" id="95F0508B-C42F-EDC2-B403-710C38536DDB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:50:07 UTC</createdTime>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_tamanho" id="3EBDA551-5AE6-7498-4DDC-69467BDE3F52">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:50:04 UTC</createdTime>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE03EE2A-8B7E-FFD8-A781-F81B44461C6C" name="T_MEMORIA PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2019-05-02 13:50:53 UTC</createdTime>
+<ownerDesignName>aula08_ex2</ownerDesignName>
+<engineerTo>
+<item key="182CAD9C-CE2E-87B9-1302-F126C1800FE8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>42FE33A4-3E58-B06E-36E3-9D42C0C824A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
